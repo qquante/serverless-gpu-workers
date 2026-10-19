@@ -4,9 +4,9 @@
 
 Experimental Modal GPU worker definitions for containerized mining workloads and operational logging.
 
-![review](https://img.shields.io/badge/review-private-374151) ![primary](https://img.shields.io/badge/primary-Python-2563EB) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Douglas%20Silva-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/douglas-silva-data-analyst/)
+![review](https://img.shields.io/badge/review-private-374151) ![primary](https://img.shields.io/badge/primary-Python-2563EB) 
 
-[Overview](#overview) · [Architecture](#architecture) · [Setup](#setup) · [Validation](#validation) · [Roadmap](#roadmap) · [Review notes](docs/REVIEW.md)
+
 
 ## Overview
 
@@ -42,7 +42,7 @@ Start from an isolated environment. Use `.env.example` when present and inspect 
 
 Static parsing checked 4 Python files and 0 strict JSON files. Python syntax errors: 0; JSON errors: 0. No functional test/build result is claimed for this preparation.
 
-Available test scripts are inventoried in [the review notes](docs/REVIEW.md). Choose offline checks before operating any integration.
+
 
 These results apply to the selected checks on the preparation copy. They do not establish deployment readiness, full coverage, live provider availability or measured performance. CI definitions, when present under `docs/ci-templates/`, are inactive review templates; no remote CI badge is claimed.
 
@@ -50,7 +50,7 @@ These results apply to the selected checks on the preparation copy. They do not 
 
 Deploying these definitions can allocate billable GPUs. No cloud deployment or mining process was started. Historical hashrate numbers are not verified measurements in this review.
 
-This private snapshot is for code and portfolio review. Generated runtime material and unreviewed binary assets may be excluded. [Review notes](docs/REVIEW.md) record preparation scope, findings and outstanding validation.
+
 
 ## Roadmap
 
@@ -66,7 +66,7 @@ No open-source license is granted by this preparation. A license and attribution
 
 ## Maintainer and feedback
 
-Douglas de Oliveira Silva · [GitHub](https://github.com/qquante) · [LinkedIn](https://www.linkedin.com/in/douglas-silva-data-analyst/)
+Douglas de Oliveira Silva · [GitHub](https://github.com/qquante) · 
 
 For this private review, report reproducible issues with a minimal fixture and the exact check output. Keep account data, credentials and generated sensitive reports out of issues and commits. Existing contribution guidelines apply where present.
 
