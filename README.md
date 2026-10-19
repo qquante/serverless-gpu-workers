@@ -6,7 +6,7 @@ Experimental Modal GPU worker definitions for containerized mining workloads and
 
 - Python definitions describe GPU images and worker execution.
 - Separate pool adapters capture environment-specific configurations.
-- Original and copied local variants are retained for comparison.
+- Pool definitions are maintained in `modal-pearl/` without duplicated source directories.
 
 ## Stack
 
